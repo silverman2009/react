@@ -38,7 +38,7 @@ const PieChart = () => {
             borderWidth: 1
           }
         },
-        labels: ["کل کاربران","کاربران فعال"],
+        labels: ["کل کاربران","کاربران fdgfdgfdggfdgfdgfdgfdgdfgfdgfdgfgfdgdfgdfgfdgdfg"],
         responsive: [{
           breakpoint: 200,
         }],
