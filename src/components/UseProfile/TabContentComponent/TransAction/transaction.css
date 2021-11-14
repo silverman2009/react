@@ -1,0 +1,99 @@
+/* card */
+.container__card_userProfile {
+    width: 170px;
+    height: 80px;
+    display: flex;
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+    border-radius: 0.45rem;
+    margin: 1rem 0;
+  }
+  
+  .right__card_userProfile {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .left__card_userProfile {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title__card__userProfile {
+    font-family: "IRANYekanBold" !important;
+    font-size: 0.85rem;
+    color: gray;
+  }
+  .subTitle__card_userProfile {
+    font-family: "IRANYekanBold" !important;
+     text-align: center;
+     color: #fff;
+  }
+
+
+
+  /* index grid */
+
+
+  .container__card__transAction {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+  }
+  
+  @media all and (max-width: 1100px) {
+    .container__card__transAction {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media all and (max-width: 750px) {
+    .container__card__transAction {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+
+
+  /* container__inputSEarch__FilterBtnGroup */
+
+  .container__inputSEarch__FilterBtnGroup{
+    display: grid;
+    grid-template-columns:50% 10%;
+  }
+
+
+
+
+  /* btn group style */
+
+  .button__filter__group__transAction{
+    margin: 0 1.3rem !important;
+}
+
+.button__filter__group__transAction > div > button{
+    background-color:#0096f5;
+    font-family: "IRANYekanBold" !important;
+    font-size: 0.75rem;
+    border: none !important;
+    padding:0.52rem 0.30rem;
+   }
+   .button__filter__group__transAction > div > button + div{
+       right:0 !important;
+   }
+   .button__filter__group__transAction > div > button::before{
+     content: "\f0b0";
+     font-family: "fontAwesome";
+     margin-left: 0.38rem !important;
+   }
+   .button__filter__group__transAction > div > button:hover{
+     background-color: #0080cf;
+   }
+   .button__filter__group__transAction > div > .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0096f5 !important;
+    /* border-color: #005cbf; */
+}

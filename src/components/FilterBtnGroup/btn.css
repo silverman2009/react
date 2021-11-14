@@ -1,0 +1,71 @@
+.filter_dropDown_FilterBtnGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter_dropDown_FilterBtnGroup > div{
+    width: 6rem;
+    background-color: #eee !important;
+    margin: 0.25rem 0;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+.filter_dropDown_FilterBtnGroup > div > a{
+    padding: 0 !important;
+    font-size: 0.75rem;
+    font-family: "IRANYekanBold";
+    color: #2b1b1b80;
+
+}
+.filter_dropDown_FilterBtnGroup > div > a:hover{
+    color: #00000096;
+}
+
+.filter_dropDown_FilterBtnGroup > div > a.active{
+    background-color: #0096f5;
+    color: white;
+    border-radius: 0.25rem;
+}
+.filter_dropDown_FilterBtnGroup > div > a.active:hover{
+    color: white;
+}
+
+
+/* date picker */
+
+.Label__FilterBtnGroup{
+    font-size: 0.75rem;
+    font-family: "IRANYekanBold";
+    color: #000000;
+    margin: 0 !important;
+}
+
+
+.Label__FilterBtnGroup + div > input {
+    width: 6rem;
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+    padding: 0.25rem 0.25rem !important;
+    border-radius: 0.1rem;
+    margin:0 !important;
+    color: darkslategray;
+    font-family: "IRANYekanBold" !important;
+    font-size: 0.75rem;
+  }
+  .Label__FilterBtnGroup + div > input:focus{
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .btn_action_FilterBtnGroup{
+      border: none;
+      outline: none;
+      background-color: #0096f5;
+      font-family: "IRANYekanBold" !important;
+      font-size: 0.75rem;
+      color: white;
+      margin: 0.95rem 0 0rem 0.50rem;
+      border-radius: 0.25rem;
+  }

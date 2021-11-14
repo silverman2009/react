@@ -1,0 +1,107 @@
+.container__tab__userProfile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 1rem;
+  justify-items: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+@media all and (max-width: 850px) {
+  .container__tab__userProfile {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* input */
+
+.container__input__userProfile {
+  position: relative !important;
+}
+.label__input__userProfile {
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.8rem;
+  padding: 0.3rem 0;
+  margin: 0 !important;
+}
+.input__userProfile {
+  width: 22rem;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  padding: 0.4rem 0.25rem;
+  border-radius: 0.1rem;
+  color: darkslategray;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+}
+.input__userProfile::placeholder {
+  font-family: "IRANYekanBold" !important;
+}
+@media all and (max-width: 1330px) {
+  .input__userProfile {
+    width: 18rem;
+  }
+}
+@media all and (max-width: 1024px) {
+  .input__userProfile {
+    width: 14rem;
+  }
+}
+@media all and (max-width: 900px) {
+  .input__userProfile {
+    width: 11rem;
+  }
+}
+@media all and (max-width: 700px) {
+  .input__userProfile {
+    width: 100%;
+  }
+}
+
+/* style date picker */
+
+.label__datePicker__userProfile {
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.8rem;
+  padding: 0.3rem 0;
+  margin: 0 !important;
+}
+
+.label__datePicker__userProfile + div > input {
+  width: 22rem;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  padding: 1.2rem 0.25rem !important;
+  border-radius: 0.1rem;
+  margin:0 !important;
+  color: darkslategray;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+}
+
+.label__datePicker__userProfile + div > input:focus{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+@media all and (max-width: 1330px) {
+  .label__datePicker__userProfile + div > input {
+    width: 18rem;
+  }
+}
+@media all and (max-width: 1024px) {
+  .label__datePicker__userProfile + div > input {
+    width: 14rem;
+  }
+}
+@media all and (max-width: 900px) {
+  .label__datePicker__userProfile + div > input {
+    width: 11rem;
+  }
+}
+@media all and (max-width: 700px) {
+  .label__datePicker__userProfile + div > input {
+    width: 100%;
+  }
+}

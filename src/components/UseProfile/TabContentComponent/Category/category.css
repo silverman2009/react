@@ -1,0 +1,4 @@
+.grid__containerSearch__category {
+  display: grid;
+  grid-template-columns: 60%;
+}

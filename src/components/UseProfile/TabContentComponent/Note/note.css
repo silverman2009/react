@@ -1,0 +1,37 @@
+.grid__container__search {
+  display: grid;
+  grid-template-columns: 50% 10%;
+}
+.DatePickerNote__note {
+  font-size: 0.75rem;
+  font-family: "IRANYekanBold" !important;
+  margin: 0 !important;
+}
+
+.DatePickerNote__note + div > input {
+  width: 7rem;
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: "IRANYekanBold" !important;
+}
+.coontainer__contentOne__note {
+  display: grid;
+  grid-template-columns: 100%;
+  border-bottom: 1px solid #141010b7;
+}
+
+/* btn group alarm */
+
+.btnGroup__alarm > div > button {
+  font-size: 0.75rem;
+  background-color: #0096f5;
+  font-family: "IRANYekanBold" !important;
+  border: none;
+  outline: none;
+}
+.btnGroup__alarm > div > button:hover {
+  background-color: #0096f5;
+}
+.btnGroup__alarm > div > button + div {
+  right: 0 !important;
+}

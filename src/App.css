@@ -1,28 +1,38 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "IRANYekanBold";
+  src: url("./font/IRANYekanBold.ttf") format("truetype");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "vazir";
+  background: #f2f2f2 !important;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.fontfamily {
+  font-family: "IRANYekanBold" !important;
+}
+.fony75 {
+  font-size: 0.75rem;
+}
+.fony80 {
+  font-size: 0.8rem;
+}
+.fony85 {
+  font-size: 0.85rem;
+}
+.margin__right {
+  margin-top: 60px;
+  margin-right: 300px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.app-sidebar:before {
+  z-index: -1 !important;
 }

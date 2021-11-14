@@ -1,0 +1,203 @@
+.add__new__user__list {
+  background-color: #0096f5;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  color: #fff;
+  border: 1px solid #0096f5;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.text__border__bottom {
+  border-bottom: 1px solid #b2b2b2;
+}
+
+.container_search__activeateButton {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  justify-content: center;
+  grid-gap: 0.75rem;
+}
+
+/* active */
+.button__list_active {
+  border-radius: 0.25rem;
+  border: 1px solid #0096f5;
+  background-color: #0096f5;
+  color: white;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.8rem;
+  text-align: center;
+  position: relative;
+}
+.button__list_active::before {
+  content: "\f05e";
+  font-family: "fontAwesome";
+  /* margin-right: -3rem; */
+  padding: 0 0.5rem;
+}
+.button__list_active::after {
+  content: "";
+  border-left: 1px solid #eee;
+  width: 100%;
+  height: 100%;
+  padding: 0 0.9rem;
+}
+
+/* not active */
+.button__list_Notactive {
+  border-radius: 0.25rem;
+  border: 1px solid #0096f5;
+  background-color: #0096f5;
+  color: white;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.8rem;
+  text-align: center;
+  position: relative;
+}
+.button__list_Notactive::before {
+  content: "\f007";
+  font-family: "fontAwesome";
+  /* margin-right: -3rem; */
+  padding: 0 0.5rem;
+}
+.button__list_Notactive::after {
+  content: "";
+  border-left: 1px solid #eee;
+  width: 100%;
+  height: 100%;
+  padding: 0 0.9rem;
+}
+
+.zero_count_list {
+  position: absolute;
+  left: 1rem;
+}
+
+/* table style */
+.container__table__list {
+  display: grid;
+  grid-template-columns: 96%;
+  justify-content: center;
+}
+
+/* size table*/
+.container__table__list > table {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.container__table__list > table > thead {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.container__table__list > table > thead > tr {
+  display: grid;
+  grid-template-columns: 6% 18.8% 18.8% 18.8% 18.8% 18.8%;
+}
+
+@media all and (max-width: 940px) {
+  .container__table__list > table > thead > tr {
+    grid-template-columns: 33% 33% 34%;
+  }
+  .container__table__list > table > thead > tr > th:nth-child(3) {
+    border-left: none !important;
+  }
+  .container__table__list > table > thead > tr > th:nth-child(5) {
+    border-top: 1px solid #00000090;
+  }
+  .container__table__list > table > thead > tr > th:nth-child(4) {
+    border-top: 1px solid #00000090;
+  }
+  .container__table__list > table > thead > tr > th:nth-child(6) {
+    border-top: 1px solid #00000090;
+  }
+}
+
+.container__table__list > table {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.container__table__list > table > tbody {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.container__table__list > table > tbody > tr {
+  display: grid;
+  grid-template-columns: 6% 18.8% 18.8% 18.8% 18.8% 18.8%;
+}
+.container__table__list > table > tbody > tr > td {
+  border-bottom: 1px solid #00000090;
+}
+
+@media all and (max-width: 940px) {
+  .container__table__list > table > tbody > tr {
+    grid-template-columns: 33% 33% 34%;
+  }
+  .container__table__list > table > tbody > tr > td:nth-child(3) {
+    border-left: none !important;
+  }
+  .container__table__list > table > tbody > tr > td:nth-child(4) {
+    border-top: 1px solid #00000090;
+  }
+  .container__table__list > table > tbody > tr > td:nth-child(5) {
+    border-top: 1px solid #00000090;
+  }
+  .container__table__list > table > tbody > tr > td:nth-child(6) {
+    border-top: 1px solid #00000090;
+  }
+}
+/* size table */
+
+.container__table__list > table {
+  border-radius: 0.25rem;
+  border-top: 1px solid #00000090;
+  border-right: 1px solid #00000090;
+  border-left: 1px solid #00000090;
+}
+.container__table__list > table > thead {
+  border-bottom: 1px solid #00000090;
+}
+.container__table__list > table > thead > tr > th {
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.8rem;
+  color: rgba(29, 22, 22, 0.89);
+  text-align: center;
+}
+.container__table__list > table > thead > tr > th:not(.last_child_th) {
+  line-height: 38px;
+  border-left: 1px solid #00000090;
+}
+.container__table__list > table > thead > tr > th:not(.last_child_th) {
+  border-left: 1px solid #00000090;
+}
+.container__table__list > table > tbody > tr > td:not(.last__child_td) {
+  border-left: 1px solid #00000090;
+}
+.container__table__list > table > tbody > tr > td {
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.8rem;
+  text-align: center;
+  color: rgba(29, 22, 22, 0.89);
+  line-height: 40px;
+}
+
+.img__list__profile__table {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+/* last child tboy */
+.last__child_td > div > a {
+  background-color: #0096f5;
+  padding: 0.1rem 0.95rem;
+}
+.last__child_td > div > a:first-child {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-left: 1px solid #00000020;
+}
+.last__child_td > div > a:last-child {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}

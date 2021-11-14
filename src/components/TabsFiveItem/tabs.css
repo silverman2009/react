@@ -1,0 +1,44 @@
+/* tab item */
+.container_tab_userProfile {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid #00000025;
+  border-right: 1px solid #00000025;
+  border-left: 1px solid #00000025;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.container_tab_userProfile > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container_tab_userProfile > div > .nav-item {
+  width: 8rem;
+  height: 2rem;
+  margin: 1rem 1.5rem !important;
+  border-radius: 0.25rem;
+  list-style: none;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all 0.3s ease;
+}
+.container_tab_userProfile > div > .nav-item > .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 2rem;
+  color: #0096f5;
+  padding: 0 !important;
+  font-family: "IRANYekanBold";
+}
+.container_tab_userProfile > div > .nav-item > .nav-link.active {
+  background: #0096f5;
+  color: white;
+  border-radius: 0.25rem;
+}
+.container__icon_tabs {
+  margin: 0 0.35rem;
+}
+

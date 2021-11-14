@@ -1,0 +1,85 @@
+.container__MessageContent__filter__InputSearch {
+  display: grid;
+  grid-template-columns: 50% 10%;
+}
+
+.create__new__message {
+  border: 1px solid #0096f5;
+  background-color: #0096f5;
+  outline: none;
+  padding: 0.25rem 0.75rem;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  color: white;
+  border-radius: 0.25rem;
+}
+.create__new__message:hover {
+  background-color: #028ee6;
+}
+
+/* tan message */
+
+.container__TabMessage {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  padding-top: 1.5rem;
+  padding-bottom: 3.5rem;
+}
+.tab__item__container__TabMessage > div > div {
+  border-bottom: 1px solid #160e0e96;
+}
+.tab__item__container__TabMessage > div > div > a {
+  color: #241f1fb4;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.7rem;
+  text-align: right;
+  padding: 0.25rem 0 !important;
+}
+.tab__item__container__TabMessage > div > div > a.active {
+  color: #000000;
+}
+
+/* tab content one */
+
+.container__message__body {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-gap: 10px;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid #1b15159d;
+}
+.container__message__body p {
+  font-family: "IRANYekanBold" !important;
+  margin: 0.35rem 0;
+}
+.title__message {
+  margin: 0;
+  font-size: 1.2rem;
+  color: rgba(14, 9, 9, 0.719);
+  padding: 0 0.65rem;
+}
+.titer__message_tab {
+  margin: 0;
+  font-size: 1.2rem;
+  color: rgba(14, 9, 9, 0.719);
+  padding: 0 0.65rem;
+}
+.message___tab_message {
+  font-size: 0.8rem;
+  padding-right: 1.7rem;
+}
+#checkbos__message_titer[type="checkbox"] {
+  -webkit-appearance: none;
+}
+#checkbos__message_titer[type="checkbox"]::before {
+  content: "\f006";
+  font-family: "fontAwesome";
+}
+#checkbos__message_titer:checked[type="checkbox"]::before {
+  content: "\f005";
+  font-family: "fontAwesome";
+}
+.details__message_tab p {
+  font-size: 0.75rem;
+  margin: 0.35rem 0;
+}

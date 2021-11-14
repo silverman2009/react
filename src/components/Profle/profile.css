@@ -1,0 +1,223 @@
+.tab__width:nth-child(5) {
+  width: 10.5rem !important;
+}
+
+/* contaner */
+.container__input_ptofile {
+  display: grid;
+  grid-template-columns: 35% 35%;
+  grid-gap: 2rem 0rem;
+  justify-content: space-around;
+}
+@media all and (max-width: 650px) {
+  .container__input_ptofile {
+    grid-template-columns: 100%;
+  }
+}
+.name__label_input__profile {
+  font-size: 0.75rem;
+  font-family: "IRANYekanBold" !important;
+  margin: 0 !important;
+  color: #000000;
+  text-align: right;
+  padding: 0.2rem 0;
+}
+
+.name__label_input__profile + input {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  background-color: #eee;
+  padding: 0.25rem;
+}
+
+.name__label_input__profile + input:focus {
+  border: 1px solid #eee;
+  outline: none;
+}
+
+/* select */
+
+.select__profle {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  background-color: #eee;
+  padding: 0.25rem;
+}
+
+/* datePicker */
+.container__Label_datePicker__profile {
+  display: grid;
+  grid-template-columns: 85%;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.name__label__profile {
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  padding: 0.25rem 0;
+}
+.container__datePicker__profile {
+  display: grid;
+  grid-template-columns: 85%;
+  justify-items: center;
+  justify-content: center;
+}
+.container__datePicker__profile > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media all and (max-width: 910px) {
+  .datePicker__profile + div:nth-child(2) {
+    padding: 0 0.15rem;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .container__Label_datePicker__profile {
+    grid-template-columns: 95%;
+    margin-top: 1.5rem;
+  }
+  .container__datePicker__profile {
+    grid-template-columns: 100%;
+  }
+  .container__datePicker__profile > div {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+  }
+  .container__datePicker__profile > div > div:nth-child(2) {
+    margin: 2rem 0;
+  }
+}
+.datePicker__profile {
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  margin: 0 !important;
+}
+.datePicker__profile + div {
+  width: 100%;
+}
+
+.datePicker__profile + div > input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  background-color: #eee;
+  padding: 0.3rem 0.25rem;
+}
+
+/* style datalist */
+.container__Label_choiceCity__profile {
+  display: grid;
+  grid-template-columns: 85%;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.name__label__choiceCity {
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  padding: 0.25rem 0;
+}
+.container__choiceCity__profile {
+  display: grid;
+  grid-template-columns: 85%;
+  justify-items: center;
+  justify-content: center;
+}
+.container__choiceCity__profile > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media all and (max-width: 910px) {
+  .container__choiceCity__profile > div > div:nth-child(2) {
+    padding: 0rem 0.25rem;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .container__Label_choiceCity__profile {
+    grid-template-columns: 95%;
+    margin-top: 1.5rem;
+  }
+  .container__choiceCity__profile {
+    grid-template-columns: 100%;
+  }
+  .container__choiceCity__profile > div {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+  }
+  .container__choiceCity__profile > div > div:nth-child(2) {
+    margin: 2rem 0;
+  }
+}
+
+.input__choice__city {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  background-color: #eee;
+  padding: 0.3rem 0.25rem;
+}
+
+/* *******************************textarea********************************** */
+.textarea__adress_profile {
+  width: 100%;
+  padding: 0.35rem;
+  background-color: #eee;
+  border: 1px solid #eee;
+  resize: none;
+  border-radius: 0.25rem;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+}
+
+.textarea__adress_profile:focus {
+  border: none;
+}
+
+/* phone and valt ****************************************************************************************/
+.name__label_input_phoneValt__profile {
+  font-size: 0.75rem;
+  font-family: "IRANYekanBold" !important;
+  margin: 0 !important;
+  color: #000000;
+  text-align: right;
+  padding: 0.2rem 0;
+}
+
+.name__label_input_phoneValt__profile + input {
+  width: 100%;
+  border: 1px solid #00000045;
+  border-radius: 0.25rem;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  padding: 0.25rem;
+}
+
+.name__label_input_phoneValt__profile + input:focus {
+  border: 1px solid #00000045;
+  outline: none;
+}

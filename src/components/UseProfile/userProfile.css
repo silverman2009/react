@@ -1,0 +1,173 @@
+.container__userProfile {
+    display: grid;
+    grid-auto-columns: 100%;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .profile__person__userProfile {
+    background-image: linear-gradient(
+      64.5deg,
+      rgba(245, 116, 185, 1) 14.7%,
+      rgba(89, 97, 223, 1) 88.7%
+    );
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+  }
+  .container__avatar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+    border: 1px solid #fff;
+  }
+  .container__avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+  .name__user__userProfile {
+    font-family: "IRANYekanBold" !important;
+    color: #fff;
+  }
+  .name__user__userProfile + p {
+    font-family: "IRANYekanBold" !important;
+    font-size: 0.95rem;
+    color: #fff;
+    padding-top: 0.75rem;
+    padding-bottom: 0.4rem;
+    margin: 0 !important;
+  }
+  .edit__profile__userProfile {
+    background: #0096f5;
+    padding: 0.25rem 0.75rem;
+    color: #fff;
+    border-radius: 0.2rem;
+    outline: none;
+    border: 1px solid #0096f5;
+    font-family: "IRANYekanBold" !important;
+    font-size: 0.85rem;
+    margin: 1.3rem 0;
+    transition: all 0.3s ease;
+  }
+  .edit__profile__userProfile:hover {
+    background: #0080cf;
+    border: 1px solid #0080cf;
+    transition: all 0.3s ease;
+  }
+
+  .btn__start__useProfile{
+    background-color: rgb(118, 54, 179);
+    border: none;
+    border-radius: 0.15rem;
+    margin: 0 0.75rem;
+}
+
+/* btn group */
+.btn__group_custom > div > button{
+ background-color:#0096f5;
+ font-family: "IRANYekanBold" !important;
+ font-size: 0.75rem;
+}
+.btn__group_custom > div > button::before{
+  content: "\f073";
+  font-family: "fontAwesome";
+  margin-left: 0.38rem !important;
+}
+.btn__group_custom > div > button:hover{
+  background-color: #0080cf;
+}
+
+
+
+
+/* input */
+
+.container__input__userProfile {
+  position: relative !important;
+}
+.label__input__userProfile {
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.8rem;
+  padding: 0.3rem 0;
+  margin: 0 !important;
+}
+.input__userProfile {
+  width: 22rem;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  padding: 0.4rem 0.25rem;
+  border-radius: 0.1rem;
+  color: darkslategray;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+}
+.input__userProfile::placeholder{
+  font-family: "IRANYekanBold" !important;
+}
+@media all and (max-width:1330px){
+  .input__userProfile{
+    width: 18rem;
+  }
+}
+@media all and (max-width:1024px){
+  .input__userProfile{
+    width: 14rem;
+  }
+}
+@media all and (max-width:900px){
+  .input__userProfile{
+    width: 11rem;
+  }
+}
+@media all and (max-width:700px){
+  .input__userProfile{
+    width: 100%;
+  }
+}
+
+
+/* select */
+
+.label__selelct__userProfile {
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.8rem;
+  padding: 0.3rem 0;
+  margin: 0 !important;
+}
+.select__userProfile {
+  width: 22rem;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  padding: 0.4rem 0.25rem;
+  border-radius: 0.1rem;
+  color: darkslategray;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+@media all and (max-width:1330px){
+  .select__userProfile{
+    width: 18rem;
+  }
+}
+@media all and (max-width:1024px){
+  .select__userProfile{
+    width: 14rem;
+  }
+}
+@media all and (max-width:900px){
+  .select__userProfile{
+    width: 11rem;
+  }
+}
+@media all and (max-width:700px){
+  .select__userProfile{
+    width: 7rem;
+  }
+}
+.select__userProfile option{
+ font-family: "IRANYekanBold" !important;
+ cursor: pointer;
+}

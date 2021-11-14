@@ -1,0 +1,42 @@
+.container__card {
+  display: grid;
+  /* grid-template-columns: 30% 70% 100%; */
+}
+
+.container__cardMoneyBag_Profile {
+  width: 170px;
+  height: 80px;
+  display: flex;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  border-radius: 0.45rem;
+  margin: 1rem 0;
+}
+
+.left__cardMoneyBag_Profile {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.right__cardMoneyBag_Profile {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right__cardMoneyBag_Profile > span {
+  margin: -1.9rem 0 0 0.85rem;
+}
+
+.title__card__userProfile {
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.85rem;
+  color: gray;
+}
+.subTitle__cardMoneyBag_Profile {
+  font-family: "IRANYekanBold" !important;
+  text-align: center;
+  color: #fff;
+}
