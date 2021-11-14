@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f812760.chunk.css",
+    "main.js": "/static/js/main.1b53505d.chunk.js",
+    "main.js.map": "/static/js/main.1b53505d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.603d1146.js",
+    "runtime-main.js.map": "/static/js/runtime-main.603d1146.js.map",
+    "static/js/2.0ade0d4b.chunk.js": "/static/js/2.0ade0d4b.chunk.js",
+    "static/js/2.0ade0d4b.chunk.js.map": "/static/js/2.0ade0d4b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3f812760.chunk.css.map": "/static/css/main.3f812760.chunk.css.map",
+    "static/js/2.0ade0d4b.chunk.js.LICENSE.txt": "/static/js/2.0ade0d4b.chunk.js.LICENSE.txt",
+    "static/media/1.97fb159f.jpg": "/static/media/1.97fb159f.jpg",
+    "static/media/style.css": "/static/media/zw.a70e41e8.svg",
+    "static/media/33.c15bcabf.png": "/static/media/33.c15bcabf.png",
+    "static/media/App.css": "/static/media/IRANYekanBold.7e590bd6.ttf",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/rtl.css": "/static/media/iranyekanwebregularfanum.f01e9ae5.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.603d1146.js",
+    "static/js/2.0ade0d4b.chunk.js",
+    "static/css/main.3f812760.chunk.css",
+    "static/js/main.1b53505d.chunk.js"
+  ]
+}
