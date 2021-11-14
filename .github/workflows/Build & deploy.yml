@@ -20,7 +20,7 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: 17.x
+        node-version: 17.1.0
     
     - name: Install NPM packages
       run: npm install
