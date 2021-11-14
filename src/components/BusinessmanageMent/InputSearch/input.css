@@ -1,0 +1,26 @@
+.container__input {
+    position: relative;
+  }
+  
+  .input__search {
+    width: 100%;
+    height: 34px;
+    outline: none;
+    padding: 0.15rem 0.3rem;
+    border: 1px solid #eee;
+    background-color: #eee;
+    font-family: "IRANYekanBold" !important;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+  }
+ .icon__search{
+   position: absolute;
+   left: 0;
+   top: 0px;
+   background-color: #0096f5;
+   padding: 8px 7px;
+   border-top-left-radius: 0.25rem;
+   border-bottom-left-radius: 0.25rem;
+   overflow: hidden;
+ }

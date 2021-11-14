@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "IRANYekanBold";
+  src: url("./font/IRANYekanBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "IRANYekanRegular";
+  src: url("./font/IRANYekanRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "IRANYekanExtraBold";
+  src: url("./font/IRANYekanExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "IRANYekanBlack";
+  src: url("./font/IRANYekanBlack.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BYekan";
+  src: url("./font/BYekan+.ttf") format("truetype");
+}
+@font-face {
+  font-family: "pYekan";
+  src: url("./font/115b712c01cdf4eb7f15d9180567345060f13317011931.ttf") format("truetype");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+body {
+  background: rgba(247, 247, 247) !important;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none !important;
+}
+
+.fontfamily {
+  font-family: "IRANYekanBold" !important;
+}
+.fony65 {
+  font-size: 0.65rem;
+}
+.fony75 {
+  font-size: 0.75rem;
+}
+.fony80 {
+  font-size: 0.8rem;
+}
+.fony85 {
+  font-size: 0.85rem;
+}
+.textColorbule {
+  color: #0096f5;
+}
+.cursorPoiner {
+  cursor: pointer;
+}
+.margin__right {
+  margin-top: 60px;
+  margin-right: 300px;
+}
+.sideBar__custom__header__ {
+  display: none;
+}
+
+.colorGoodNight{
+  color: #485460;
+}
+
+

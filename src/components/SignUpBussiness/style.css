@@ -1,0 +1,185 @@
+.container__signUp_bussiness{
+    display: grid;
+    grid-template-columns: 85%;
+    justify-content: center;
+
+}
+.container__signUpBussines_col{
+    background-color: white;
+    border-radius: 3rem;
+    margin-bottom: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.container__input_bussiness{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: space-around;
+    grid-gap:0.75rem;
+}
+.contaner__formSignUp__bussines{
+    background-color: white;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;}
+
+
+.container__textarea{
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.textarea__signUp_bussiness{
+    width: 100%;
+    border: 0.12rem solid#596275;
+    color: #535c68;
+    border-radius: 0.25rem;
+    padding: 0.3rem 0.5rem;
+    font-family: "IRANYekanBold" !important;
+    font-size: 0.85rem;
+    outline: none;
+    background-color: transparent;
+    resize: none;
+}
+
+.container__selectallImg{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    grid-gap: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    position: relative;
+    background-color: white;
+    border-radius:0.75rem ;
+}
+.container__selectImg{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.selectImg{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+
+.clickSelect_for__img{
+    display: grid;
+    grid-template-columns: 84% 1% 15%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #0096f5;
+    border-radius: 0.50rem;
+    cursor: pointer;
+}
+
+.border_icon_arrow{
+    width: 1px;
+    height: 100%;
+    background-color: white;
+}
+.icon_arrow_left{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.img_info{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.pr-2{
+    padding-right: 0.75rem !important;
+}
+
+
+  /* input type file */
+.label__uplaodImg{
+line-height: 2rem;
+}
+ 
+ #upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+
+
+
+
+
+
+ /* signUp bussiness */
+
+ .label__input{
+     color: #222f3e;
+     text-shadow: 2px 2px #00000023;
+ }
+ .label__textarea{
+    color: #222f3e;
+    text-shadow: 2px 2px #00000023;  
+ }
+ .container__input_bussiness input{
+     color: #535c68;
+ }
+ .titer__form{
+     position: absolute;
+     top: -3.7rem;
+     padding:1rem;
+     border-radius: 0.85rem;
+     background-color: #0096f5 !important;
+     color: white;
+     border: 2px solid white;
+     box-shadow: rgba(75, 75, 75, 0.15) 0px 15px 20px,
+     rgba(105, 105, 105, 0.05) 0px 5px 7px;
+    }
+    .titer__form > p{
+        font-size: 0.85rem;
+        font-family: "IRANYekanExtraBold" !important;
+    }
+
+ .title__formImage{
+     position: absolute;
+     right: 6rem;
+     top: -1.7rem;
+     background-color: white;
+     padding: 1rem;
+ }
+ .title__formImage > p {
+     color:#34495e;
+ }
+
+ 
+.input_signUp_bussiness{
+    border: 1.5px solid #c8d6e5 !important;
+}
+ /* preview img upload */
+
+ .container__preview__img_upload{
+     width: 100%;
+     height: 100%;
+ }
+ .container__preview__img_upload > img{
+     width: 100%;
+     height: 100%;
+ }
+
+ /* btn Add card number */
+ .btn_add_cardNumber{
+     position: absolute;
+     left: 8px;
+     top:31px;
+     height: 18px;
+     line-height: 8px;
+     background-color: #0096f5;
+     color: white;
+     border: 1px solid #0096f5;
+     color: white;
+     border-radius: 0.15rem;
+     font-weight: bold;
+     cursor: pointer; 
+ }
+ .col-container-input > div{
+     margin-top: 2rem;
+ }
+ 

@@ -1,0 +1,129 @@
+.container__table__categoryCostomer {
+  display: grid;
+  grid-template-columns: 90%;
+  margin-top: 2rem;
+}
+
+/********************border table******************* */
+.container__table__categoryCostomer > table > thead {
+  border-top: 1px solid #121923;
+  border-right: 1px solid #121923;
+  border-left: 1px solid #121923;
+}
+.container__table__categoryCostomer > table > thead > tr > th:not(:last-child) {
+  border-left: 1px solid #121923;
+}
+.container__table__categoryCostomer > table > tbody {
+  border: 1px solid #121923;
+}
+.container__table__categoryCostomer > table > tbody > tr > td:not(:last-child) {
+  border-left: 1px solid #121923;
+}
+.container__table__categoryCostomer > table > tbody > tr:not(:last-child) {
+  border-bottom: 1px solid #121923;
+}
+/********************border table******************* */
+
+/****************** style head body table ***************/
+.container__table__categoryCostomer > table > thead > tr > th {
+  text-align: right;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  color: #242e36;
+  padding: 0.35rem 0;
+}
+.container__table__categoryCostomer > table > thead > tr > th::before {
+  content: "\f0dc";
+  font-family: "fontAwesome";
+  padding: 0 0.35rem;
+}
+.container__table__categoryCostomer > table > tbody > tr > td {
+  text-align: center;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.75rem;
+  color: #242e36;
+  padding: 0.35rem 0;
+}
+/***************** style heade table ************************/
+
+/**************** grid item thead tbody *********************/
+.container__table__categoryCostomer > table {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.container__table__categoryCostomer > table > thead {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.container__table__categoryCostomer > table > tbody {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.container__table__categoryCostomer > table > tbody > tr {
+  display: grid;
+  grid-template-columns: 15% 18% 15% 15% 20% 15%;
+}
+
+.container__table__categoryCostomer > table > thead > tr {
+  display: grid;
+  grid-template-columns: 15% 18% 15% 15% 20% 15%
+}
+@media all and (max-width: 730px) {
+  .container__table__categoryCostomer {
+    grid-template-columns: 100%;
+  }
+}
+@media all and (max-width: 630px) {
+  .container__table__categoryCostomer > table > thead > tr {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+  }
+  .container__table__categoryCostomer > table > thead > tr > th:nth-child(3) {
+    border: none;
+  }
+  .container__table__categoryCostomer > table > thead > tr > th:nth-child(4),
+  .container__table__categoryCostomer > table > thead > tr > th:nth-child(5),
+  .container__table__categoryCostomer > table > thead > tr > th:nth-child(6) {
+    border-top: 1px solid #121923;
+  }
+  .container__table__categoryCostomer > table > tbody > tr {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+  }
+  .container__table__categoryCostomer > table > tbody > tr > td:nth-child(3) {
+    border: none;
+  }
+  .container__table__categoryCostomer > table > tbody > tr > td:nth-child(4),
+  .container__table__categoryCostomer > table > tbody > tr > td:nth-child(5),
+  .container__table__categoryCostomer > table > tbody > tr > td:nth-child(6) {
+    border-top: 1px solid #121923;
+  }
+}
+/**************** grid item thead tbody *********************/
+
+/* ******************botttom lastchild td********************* */
+.container__td_lastChild_categoryCustomer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__td_lastChild_categoryCustomer > a {
+  width: 2.8rem;
+  background-color: #0096f5;
+  color: #fff;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.65rem;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  margin-left: 0.2rem;
+}
+.container__td_lastChild_categoryCustomer > div {
+  width: 2.8rem;
+  color: #fff;
+  font-family: "IRANYekanBold" !important;
+  font-size: 0.65rem;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+/* ******************botttom lastchild td********************* */

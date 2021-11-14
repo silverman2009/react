@@ -1,0 +1,85 @@
+.container_dashbord {
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.contaier__body_dashbord {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.aside__dashbord {
+  height: 600px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 1.3rem;
+
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.avatar__shopName {
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
+  border-radius: 50%;
+  margin: 0.95rem;
+}
+
+.icon__aside_route {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+@media all and (max-width: 900px) {
+  .contaier__body_dashbord {
+    grid-template-columns: 100%;
+  }
+  .aside__dashbord {
+    display: none;
+  }
+}
+
+.icon-Route {
+  color: white;
+}
+.nav_link_route {
+  display: block;
+  height: 40px;
+  font-size: 1rem;
+  color: #353b48;
+  line-height: 40px;
+}
+
+.navLink__route > div > .icon-Route {
+  color: #353b48;
+}
+
+.activeClassName {
+  display: flex;
+  align-items: center;
+  background-color: #0096f5;
+  border-radius: 0.85rem;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  margin: 1rem 0;
+}
+
+.activeClassName > div {
+  height: 55px;
+}
+.activeClassName > div > p {
+  color: white;
+}
+.activeClassName > div > .icon-Route {
+  color: white !important;
+}
+
+.activeClassName > div >.icon-Routeff{
+  color:  white !important;
+}

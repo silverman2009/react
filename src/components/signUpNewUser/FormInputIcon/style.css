@@ -1,0 +1,55 @@
+.icon-container-form {
+  position: absolute;
+ 
+}
+
+
+.input-inputIcon {
+   width: 100%;
+   outline: none;
+   border: none;
+   background-color: transparent !important;
+   color:#1e272e;
+   font-size: 0.85rem;
+   font-weight: 900;
+   font-family: "IRANYekanBold";
+   border-bottom: 1px solid #57606f;
+   padding: 0 1.3rem;
+}
+.input-inputIcon:focus{
+  color:#1e272e;
+}
+
+.input-inputIcon::placeholder{
+  color:#a5b1c2;
+  font-size: 0.85rem;
+}
+
+.img-userName-SignUp{
+  width: 15px;
+  margin-top: -0.55rem !important;
+}
+
+.label-input-formInputIcon {
+  font-family:"IRANYekanBold";
+  font-size: 0.75rem;
+  color: #808e9b;
+  padding-bottom:0.75rem ;
+}
+
+.fullNameIcon{
+  width: 0.95rem !important;
+}
+
+
+
+.input-userName-signUP{
+  padding:0 2rem;
+}
+
+.img-userName-codeMorif{
+  width: 20px;
+  margin-top: -0.55rem !important;
+}
+
+

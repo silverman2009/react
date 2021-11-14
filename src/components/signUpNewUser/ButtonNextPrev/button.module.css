@@ -1,0 +1,52 @@
+.btn_custom_submit_form_buttonNextPrev {
+  border: 0.08rem solid #fff;
+  border-radius: 1rem;
+  background: #0096f5;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "IRANYekanBold";
+  font-weight: 500;
+  padding: 0.3rem 2rem;
+  align-items: center;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    margin: 0 0.65rem;
+}
+
+@media all and (max-width:645px){
+  .btn_custom_submit_form_buttonNextPrev{
+    padding: 0.5rem 2.5rem;
+  }
+}
+
+.btn_custom_submit_form_buttonNextPrev:hover {
+  background-color: #0096f5;
+}
+
+.btn-custom-component{
+  padding:0.5rem 2rem !important ;
+}
+.btn_custom_submit_form_button {
+  width: 6rem;
+  border: 0.08rem solid #fff;
+  border-radius: 1rem;
+  background: #0096f5;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "IRANYekanBold";
+  font-weight: 500;
+  align-items: center;
+  padding: 0.25rem 0 !important;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    margin: 0 0.65rem;
+}
+
+.btn_custom_submit_form_button:hover {
+  background-color: #0096f5;
+}
+
+.btn-custom-component{
+  padding:0.5rem 2rem !important ;
+}
+

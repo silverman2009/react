@@ -1,0 +1,62 @@
+.container__nav_tab_reqest .nav .nav-item {
+  border: 1px solid #0096f5 !important;
+  margin: 0 0.75rem;
+  border-radius: 0.25rem;
+}
+.container__nav_tab_reqest .nav .nav-item a {
+  color: #0096f5;
+}
+.container__nav_tab_reqest .nav .nav-item a.active {
+  color: white;
+}
+
+.container__filters_manage_transacton {
+  display: grid;
+  grid-template-columns: 30% 60%;
+}
+
+.container_tabs {
+  border-radius: 1.3rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.input_searchBox_manageSearch {
+  background-color: #eee !important;
+  border: 1px solid #d2dae2 !important;
+  color: #485460;
+}
+.container__search_icon {
+  position: absolute;
+  left: 5px;
+  top: 6px;
+}
+/************************** date picker ***************************/
+.datePickerManageTransactins > div > input {
+  border: 1px solid #d2dae2;
+  padding: 0.95rem 0;
+  font-family: IRANYekanBold;
+  font-size: 1rem;
+  text-align: center;
+  color: #485460;
+}
+
+/* notifition style reqquest */
+.notifiction_requests{
+  position: relative;
+}
+.notifiction_requests > div{
+  height:15px;
+  padding: 0 0.10rem;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -0.25rem;
+  left: .50rem;
+  outline: none;
+  font-size:0.65rem;
+  border: 1px solid red;
+  font-family: IRANYekanBold;
+}

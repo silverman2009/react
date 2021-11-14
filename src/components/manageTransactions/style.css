@@ -1,0 +1,61 @@
+.container__nav_tab .nav{
+ display: flex;
+ justify-content: center;
+}
+.container__nav_tab .nav .nav-item{
+  width: 8rem;
+  border: 1px solid #0096f5 !important;
+  border-radius: 0.25rem;
+  margin: 1rem 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+.container__nav_tab .nav .nav-item a.active {
+  background-color: #0096f5;
+  color: white;
+ border-radius: 0 !important;
+}
+.tab-pane.active{
+    background-color: transparent;
+}
+
+.container__filters_manage_transacton{
+  display: grid;
+  grid-template-columns:  30% 60%;
+}
+
+.container_tabs{
+  border-radius: 1.3rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+
+.input_searchBox_manageSearch{
+  background-color: #eee !important;
+  border: 1px solid #d2dae2 !important;
+  color: #485460;
+}
+.container__search_icon{
+  position: absolute;
+  left: 5px;
+  top: 6px;
+}
+.btn_verify_code{
+border: 1px solid #0096f5;
+background-color: #0096f5;
+color: white;
+margin-top: 1rem;
+margin-right: 0.60rem;
+padding: 0rem 0.35rem ;
+border-radius: 0.35rem;
+}
+/************************** date picker ***************************/
+.datePickerManageTransactins > div > input{
+ border: 1px solid #d2dae2;
+ padding:.95rem 0;
+ font-family: IRANYekanBold;
+ font-size: 1rem;
+ text-align:center;
+ color: #485460;
+
+}
